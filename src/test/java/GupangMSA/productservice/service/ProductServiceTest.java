@@ -4,7 +4,7 @@ import GupangMSA.productservice.domain.Product;
 import GupangMSA.productservice.domain.ProductRequest;
 import GupangMSA.productservice.domain.ProductUpdate;
 import GupangMSA.productservice.exception.NoProductException;
-import GupangMSA.productservice.infrastructure.ProductRepository;
+import GupangMSA.productservice.service.port.ProductRepository;
 import GupangMSA.productservice.mock.FakeProductRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;

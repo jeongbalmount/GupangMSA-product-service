@@ -2,7 +2,7 @@ package GupangMSA.productservice.mock;
 
 import GupangMSA.productservice.domain.Product;
 import GupangMSA.productservice.exception.NoProductException;
-import GupangMSA.productservice.infrastructure.ProductRepository;
+import GupangMSA.productservice.service.port.ProductRepository;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;

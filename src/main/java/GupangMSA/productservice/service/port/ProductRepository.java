@@ -1,4 +1,4 @@
-package GupangMSA.productservice.infrastructure;
+package GupangMSA.productservice.service.port;
 
 import GupangMSA.productservice.domain.Product;
 import GupangMSA.productservice.domain.ProductRequest;
